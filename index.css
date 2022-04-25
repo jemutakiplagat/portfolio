@@ -16,7 +16,6 @@
 }
 
 .full-wrapper > .image {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -36,7 +35,7 @@
   top: 44px;
   bottom: 0;
   align-items: center;
-  padding: 5px 5px; 
+  padding: 5px, 5px;
   margin-left: 20px;
 }
 
@@ -44,9 +43,8 @@
   position: static;
   width: 76px;
   height: 20px;
-  left: 0px;
+  left: 0;
   top: 10px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -58,7 +56,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
+  margin: 0 0;
 }
 
 .nav-wrapp > .right-nav {
@@ -77,12 +75,11 @@
   position: absolute;
   width: 375px;
   height: 604px;
-  left: calc(50% - 375px/2);
+  left: calc(50% - 375px / 2);
   top: 92px;
 }
 
 .content-wrapper > .header {
-  font-family: 'Poppins' sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -93,7 +90,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px;
   position: static;
   width: 327px;
   height: 150px;
@@ -102,7 +99,6 @@
 }
 
 .content-wrapper > .about {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -116,12 +112,10 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0px;
-
+  margin: 12px 0;
 }
 
 .content-wrapper > .connect {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -129,17 +123,16 @@
   color: #7f8cff;
   padding: 0;
   flex: none;
-order: 2;
-flex-grow: 0;
-margin: 12px 0px;
-
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0;
 }
 
 .content-wrapper > .social-icons > ul {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 12px ;
+  margin: 12px;
   flex-direction: row;
   display: inline-flex;
   justify-content: space-around;
