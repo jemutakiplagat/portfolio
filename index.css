@@ -37,6 +37,7 @@
   bottom: 0;
   align-items: center;
   padding: 5px 5px; 
+  margin-left: 20px;
 }
 
 .nav-wrapp > .logo {
@@ -116,6 +117,7 @@
   order: 1;
   flex-grow: 0;
   margin: 12px 0px;
+
 }
 
 .content-wrapper > .connect {
@@ -130,6 +132,7 @@
 order: 2;
 flex-grow: 0;
 margin: 12px 0px;
+
 }
 
 .content-wrapper > .social-icons > ul {
@@ -146,4 +149,5 @@ margin: 12px 0px;
   left: 24px;
   top: 470px;
   list-style-type: none;
+  margin-left: -10px;
 }
