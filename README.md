@@ -1,15 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+ portfolio
 
-> Description the project.
+> Building mobile skeleton.
 
 
 ## Built With
 
-- Major languages
+- Major languages(html and css)
 - Frameworks
-- Technologies used
+- Technologies used( linters)
 
 ## Live Demo (if available)
 
@@ -38,19 +39,14 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **jemutai kiplagat**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/jemutakiplagat)
+- Twitter: [@twitterhandle](https://twitter.com/@jemutaikiplaga1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jemutai-kiplagat-84782b235/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
