@@ -1,5 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.nav-wrapp{
+    border: 3px solid coral;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.nav-wrapp > .logo {
+    border: 3px solid coral;
+    position: static;
+width: 76px;
+height: 20px;
+left: 12px;
+top: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Primary/B400 */
+
+color: #6070FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.nav-wrapp > .rigth-nav{
+    border: 3px solid coral;
+
+    position: static;
+width: 76px;
+height: 20px;
+right: 12px;
+top: 10px;
+color: #6070FF;
+}
+.content-wrapper{
+    border: 3px solid coral;
+    background-image: url(images.jpeng/header-shapes\ mobile@2x.png);
+
+}
+.content-wrapper > .header {
+    border: 3px solid coral;
+   
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
+
+display: flex;
+align-items: center;
+color: #172B4D;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 12px 0px;
+position: static;
+width: 327px;
+height: 150px;
+left: 24px;
+top: 114px;
+}
+.content-wrapper > .about {
+    border: 3px solid coral;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: static;
+width: 327px;
+height: 146px;
+left: 24px;
+top: 276px;
+color: #344563;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 12px 0px;
+}
+
+.content-wrapper > .connect{
+    border: 3px solid coral;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+}
+.content-wrapper > .social-icons > ul {
+
+ border: 3px solid coral;
+ flex: none;
+order: 3;
+flex-grow: 0;
+margin: 12px 0px;
+position: static;
+width: 170.17px;
+height: 20px;
+left: 24px;
+top: 470px;
 }
