@@ -5,49 +5,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .full-wrapper {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top:0px;
-  background-color: #ffffff;
+  left: 1px;
+  background-color: #fffffffa;
   align-items: center;
 }
 
 .full-wrapper > .image {
- 
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-text-align: center;
-letter-spacing: -0.28px;
-
-color: #000000;
-
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #000000fb;
 }
 
 .nav-wrapp {
-  /* border: 3px solid coral; */
   justify-content: space-between;
   display: flex;
   flex-direction: row;
   width: 375px;
   height: 92px;
-  left: 0px;
+  left: 0;
   top: 44px;
-  bottom: 0px;
+  bottom: 0;
   align-items: center;
-  padding: 5px 5px;
-
-  
+  padding: 5px 5px; 
 }
 
 .nav-wrapp > .logo {
- 
   position: static;
   width: 76px;
   height: 20px;
@@ -56,26 +48,28 @@ color: #000000;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 18pxpx;
+  font-size: 18px;
   line-height: 20px;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0px 0px;
 }
+
 .nav-wrapp > .right-nav {
   position: static;
   width: 76px;
   height: 20px;
   right: 12px;
   top: 10px;
-  color: #6070FF;
+  color: #6070ff;
 }
-.content-wrapper{
+
+.content-wrapper {
   background-image: url(images.jpeng/header-shapes\ mobile@2x.png);
   align-items: flex-start;
   padding: 114px 24px;
@@ -87,14 +81,14 @@ color: #000000;
 }
 
 .content-wrapper > .header {
-  font-family: 'Poppins';
+  font-family: 'Poppins' sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -130,18 +124,19 @@ color: #000000;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
+  padding: 0;
   flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 8px;
+order: 2;
+flex-grow: 0;
+margin: 12px 0px;
 }
 
 .content-wrapper > .social-icons > ul {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px ;
   flex-direction: row;
   display: inline-flex;
   justify-content: space-around;
