@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full-wrapper {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 1px;
+  background-color: #fffffffa;
+  align-items: center;
+}
+
+.full-wrapper > .image {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #000000fb;
+}
+
+.nav-wrapp {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  width: 375px;
+  height: 92px;
+  left: 0;
+  top: 44px;
+  bottom: 0;
+  align-items: center;
+  padding: 5px, 5px;
+  margin-left: 20px;
+}
+
+.nav-wrapp > .logo {
+  position: static;
+  width: 76px;
+  height: 20px;
+  left: 0;
+  top: 10px;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 19px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: #6070ff;
+}
+
+.nav-wrapp > .right-nav {
+  position: static;
+  width: 76px;
+  height: 20px;
+  right: 12px;
+  top: 10px;
+  color: #6070ff;
+}
+
+.content-wrapper {
+  background-image: url(images.jpeng/header-shapes\ mobile@2x.png);
+  align-items: flex-start;
+  padding: 114px 24px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px / 2);
+  top: 92px;
+  font-family: "poppins", sans-serif;
+}
+
+.content-wrapper > .header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px;
+  position: static;
+  width: 327px;
+  height: 150px;
+  left: 24px;
+  top: 114px;
+  font-family: "poppins", sans-serif;
+}
+
+.content-wrapper > .about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+  font-family: "poppins", sans-serif;
+}
+
+.content-wrapper > .connect {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding: 0;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.content-wrapper > .social-icons > ul {
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 12px;
+  flex-direction: row;
+  display: inline-flex;
+  justify-content: space-around;
+  position: static;
+  width: 170.17px;
+  height: 20px;
+  left: 24px;
+  top: 470px;
+  list-style-type: none;
+  margin-left: -10px;
+}
