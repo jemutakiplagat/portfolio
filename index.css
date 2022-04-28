@@ -237,19 +237,17 @@ a {
 .work-section > .categorie-work > ul {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 0;
   position: static;
-  width: 285px;
+  width: 200px;
   height: 24px;
   left: 0;
   top: 180px;
   list-style-type: none;
   justify-content: space-between;
   flex: none;
-  order: 2;
-  flex-grow: 0;
-  margin: 12px 0;
+  margin: 12px 90px -40px 0;
 }
 
 .work-section > .see-button {
@@ -274,7 +272,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin: 0px 170px -40px 0px;
+  margin: 52px 170px -40px 0;
 }
 
 .work-section1 {
@@ -349,7 +347,7 @@ a {
   align-items: center;
   padding: 0;
   position: static;
-  width: 283px;
+  width: 200px;
   height: 24px;
   left: 0;
   top: 224px;
@@ -358,7 +356,7 @@ a {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0;
+  margin: 12px  90px -30px 0;
 }
 
 .work-section1 > .see-button1 {
@@ -383,7 +381,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin: 0px 170px -40px 0px;
+  margin: 50px 170px -40px 0;
 }
 
 .work-section2 {
@@ -454,7 +452,7 @@ a {
   align-items: center;
   padding: 0;
   position: static;
-  width: 283px;
+  width: 200px;
   height: 24px;
   left: 0;
   top: 224px;
@@ -463,7 +461,7 @@ a {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0;
+  margin: 12px  90px -40px 0;
 }
 
 .work-section2 > .see-button {
@@ -488,7 +486,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin: 0 170px -40px 0;
+  margin: 50px 170px -40px 0;
 }
 
 .work-section3 {
@@ -573,7 +571,7 @@ a {
   align-items: center;
   padding: 0;
   position: static;
-  width: 283px;
+  width: 200px;
   height: 24px;
   left: 0;
   top: 224px;
@@ -582,7 +580,7 @@ a {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0;
+  margin: 12px 90px -40px 0;
 }
 
 .work-section3 > .see-button {
@@ -606,7 +604,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin: 0px 170px -40px 0px;
+  margin: 50px 170px -40px 0;
 }
 
 .about-wrapper {
@@ -702,7 +700,7 @@ a {
   border-radius: 8px;
   position: static;
   background-color: #fff;
-  margin: 0px 170px -40px 0px;
+  margin: 0 170px -40px 0;
   width: 135px;
   height: 44px;
   left: 12px;
@@ -723,7 +721,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   position: static;
   width: 327px;
   height: 464.15px;
@@ -732,7 +730,7 @@ a {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 64px 0px;
+  margin: 64px 0;
   list-style-type: none;
 }
 
