@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  
 }
 
 .full-wrapper {
@@ -13,6 +15,9 @@
   left: 1px;
   background-color: #fffffffa;
   align-items: center;
+
+
+ 
 }
 
 .full-wrapper > .image {
@@ -240,7 +245,7 @@ a {
   align-items: flex-start;
   padding: 0;
   position: static;
-  width: 203px;
+  width: 285px;
   height: 24px;
   left: 0;
   top: 180px;
@@ -349,7 +354,7 @@ a {
   align-items: center;
   padding: 0;
   position: static;
-  width: 203px;
+  width: 283px;
   height: 24px;
   left: 0;
   top: 224px;
@@ -454,7 +459,7 @@ a {
   align-items: center;
   padding: 0;
   position: static;
-  width: 203px;
+  width: 283px;
   height: 24px;
   left: 0;
   top: 224px;
@@ -573,7 +578,7 @@ a {
   align-items: center;
   padding: 0;
   position: static;
-  width: 203px;
+  width: 283px;
   height: 24px;
   left: 0;
   top: 224px;
@@ -588,7 +593,6 @@ a {
 .work-section3 > .see-button {
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding: 12px;
   width: 130px;
   height: 40px;
@@ -736,3 +740,36 @@ a {
   flex-grow: 0;
   margin: 0 0;
 }
+.work-section3 > .see-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  
+}
+.work-section2 > .see-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  
+}
+.work-section > .see-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  
+}
+.work-section1 > .see-button1:hover {
+  background-color: #6070ff;
+  color: #fff;
+  
+}
+.work-section3 > .see-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  
+}
+.about-wrapper > .see-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  
+}
+
+
+
