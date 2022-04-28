@@ -694,7 +694,7 @@ a {
   left: 24px;
   top: 470px;
   list-style-type: none;
-  margin-left: -10px;
+  margin-left: 10px;
 }
 
 .about-wrapper > .see-button {
@@ -703,7 +703,7 @@ a {
   align-items: center;
   padding: 12px;
   top: calc(50% - 48px / 2);
-  border: 1px solid #6070ff;
+  border: 1px solid #6070FF;
   box-sizing: border-box;
   border-radius: 8px;
   position: static;
