@@ -4,8 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  
 }
 
 .full-wrapper {
@@ -15,9 +13,6 @@
   left: 1px;
   background-color: #fffffffa;
   align-items: center;
-
-
- 
 }
 
 .full-wrapper > .image {
@@ -279,7 +274,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin-right: 15;
+  margin: 0px 170px -40px 0px;
 }
 
 .work-section1 {
@@ -388,7 +383,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin-right: 15;
+  margin: 0px 170px -40px 0px;
 }
 
 .work-section2 {
@@ -493,7 +488,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin-right: 15;
+  margin: 0 170px -40px 0;
 }
 
 .work-section3 {
@@ -540,7 +535,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 39px;
-  line-height: 44px;
+  line-height: 40px;
   color: #172b4d;
   flex: none;
   order: 0;
@@ -611,8 +606,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin-right: 15;
-  
+  margin: 0px 170px -40px 0px;
 }
 
 .about-wrapper {
@@ -703,12 +697,12 @@ a {
   align-items: center;
   padding: 12px;
   top: calc(50% - 48px / 2);
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
   position: static;
   background-color: #fff;
-  margin-right: 25;
+  margin: 0px 170px -40px 0px;
   width: 135px;
   height: 44px;
   left: 12px;
@@ -726,51 +720,43 @@ a {
 }
 
 .about-wrapper > .language-icons > ul {
-  list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12px;
+  padding: 0px;
   position: static;
   width: 327px;
-  height: 248.15px;
-  left: 0;
-  top: 72px;
+  height: 464.15px;
+  left: 24px;
+  top: 547px;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 0 0;
+  margin: 64px 0px;
+  list-style-type: none;
 }
+
 .work-section3 > .see-button:hover {
   background-color: #6070ff;
   color: #fff;
-  
 }
+
 .work-section2 > .see-button:hover {
   background-color: #6070ff;
   color: #fff;
-  
 }
+
 .work-section > .see-button:hover {
   background-color: #6070ff;
   color: #fff;
-  
 }
+
 .work-section1 > .see-button1:hover {
   background-color: #6070ff;
   color: #fff;
-  
 }
-.work-section3 > .see-button:hover {
-  background-color: #6070ff;
-  color: #fff;
-  
-}
+
 .about-wrapper > .see-button:hover {
   background-color: #6070ff;
   color: #fff;
-  
 }
-
-
-
