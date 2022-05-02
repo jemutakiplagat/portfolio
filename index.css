@@ -23,6 +23,8 @@
   text-align: center;
   letter-spacing: -0.28px;
   color: #000000fb;
+ 
+  
 }
 
 .nav-wrapp {
@@ -36,7 +38,7 @@
   bottom: 0;
   align-items: center;
   padding: 5px, 5px;
-  margin-left: 20px;
+  margin-left: 500px;
 }
 
 .nav-wrapp > .logo {
