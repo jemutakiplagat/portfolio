@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-.full-wrapper > .image {
+.image {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -23,8 +23,8 @@
   text-align: center;
   letter-spacing: -0.28px;
   color: #000000fb;
+  margin-left: 480px;
  
-  
 }
 
 .nav-wrapp {
