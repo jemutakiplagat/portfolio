@@ -9,10 +9,9 @@ main{
   position: relative;
 width: 375px;
 height: 5410px;
-
-
-background: #F7F7F9; 
+background: #fff
 }
+
 .full-wrapper {
   position: absolute;
   width: 375px;
@@ -629,6 +628,7 @@ a {
   order: 0;
   flex-grow: 0;
   margin: 24px 0;
+  background-color: #fff;
 }
 
 .about-wrapper > .header {
@@ -767,7 +767,7 @@ a {
   color: #fff;
 }
 
-.form-container {
+.contact-container {
   position: absolute;
   width: 375px;
   height: 779px;
@@ -779,9 +779,11 @@ a {
   background-image: url(images.jpeng/contactformshapes-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
+  border-top-left-radius: 100px;
 }
 
-.form-container > .heading {
+
+.contact-container > .heading {
   position: absolute;
   width: 801px;
   height: 56px;
@@ -798,7 +800,7 @@ a {
   color: #fff;
 }
 
-.form-container > .content {
+.contact-container > .content {
   position: absolute;
   width: 327px;
   height: 102px;
@@ -811,6 +813,9 @@ a {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+}
+form{
+  width: 150px;
 }
 
 input[type=text] {
