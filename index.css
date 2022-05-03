@@ -878,7 +878,7 @@ textarea[id=subject] {
   color: #b3bac5;
 }
 
-button[type=button] {
+.form-container-button {
   display: flex;
   flex-direction: row;
   align-items: center;
