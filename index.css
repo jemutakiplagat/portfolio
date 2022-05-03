@@ -10,9 +10,8 @@ main{
 width: 375px;
 height: 5410px;
 
-/* Neutrals/N10 */
 
-background: #F7F7F9;
+background: #F7F7F9; 
 }
 .full-wrapper {
   position: absolute;
