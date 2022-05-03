@@ -29,7 +29,7 @@ background: #fff
   text-align: center;
   letter-spacing: -0.28px;
   color: #000000fb;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .nav-wrapp {
@@ -804,7 +804,7 @@ a {
   position: absolute;
   width: 327px;
   height: 102px;
-  left: 24px;
+  left: 34px;
   top: 220px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -813,6 +813,7 @@ a {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+
 }
 form{
   width: 150px;
