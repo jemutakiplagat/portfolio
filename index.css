@@ -5,11 +5,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-main{
+
+main {
   position: relative;
-width: 375px;
-height: 5410px;
-background: #fff
+  width: 375px;
+  height: 5410px;
+  background: #fff;
 }
 
 .full-wrapper {
@@ -782,7 +783,6 @@ a {
   border-top-left-radius: 100px;
 }
 
-
 .contact-container > .heading {
   position: absolute;
   width: 801px;
@@ -813,9 +813,9 @@ a {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-
 }
-form{
+
+form {
   width: 150px;
 }
 
