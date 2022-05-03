@@ -5,7 +5,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+main{
+  position: relative;
+width: 375px;
+height: 5410px;
 
+/* Neutrals/N10 */
+
+background: #F7F7F9;
+}
 .full-wrapper {
   position: absolute;
   width: 375px;
@@ -23,7 +31,7 @@
   text-align: center;
   letter-spacing: -0.28px;
   color: #000000fb;
-  margin-left: 480px;
+  margin-left: 10px;
 }
 
 .nav-wrapp {
@@ -37,7 +45,7 @@
   bottom: 0;
   align-items: center;
   padding: 5px, 5px;
-  margin-left: 500px;
+  margin-left: 30px;
 }
 
 .nav-wrapp > .logo {
@@ -764,7 +772,7 @@ a {
   position: absolute;
   width: 375px;
   height: 779px;
-  left: 15px;
+  left: 0;
   top: 4200px;
   background: #6070ff;
 
