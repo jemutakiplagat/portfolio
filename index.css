@@ -312,6 +312,7 @@ a {
 
 .see-button {
   position: static;
+
   /* width: 195px;
   height: 72px; */
   left: 0;
@@ -651,7 +652,8 @@ textarea[id=subject] {
     width: 1000px;
     display: flex;
   }
-  #card2{
+
+  #card2 {
     flex-direction: row-reverse;
     align-content: center;
   }
