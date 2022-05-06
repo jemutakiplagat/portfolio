@@ -312,8 +312,8 @@ a {
 
 .see-button {
   position: static;
-  width: 295px;
-  height: 72px;
+  /* width: 195px;
+  height: 72px; */
   left: 0;
   color: #396df2;
   background-color: #fff;
@@ -650,5 +650,9 @@ textarea[id=subject] {
     flex-direction: row;
     width: 1000px;
     display: flex;
+  }
+  #card2{
+    flex-direction: row-reverse;
+    align-content: center;
   }
 }
