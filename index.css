@@ -15,15 +15,21 @@ main {
   display: grid;
 }
 
-/* .full-wrapper {
-  position: absolute;
+.nav-wrapp > .right-nav > ul {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
   width: 375px;
-  height: 718px;
-  left: 1px;
-  background-color: #fffffffa;
+  height: 92px;
+  left: 0;
+  top: 44px;
+  bottom: 0;
   align-items: center;
-  background-color: #396DF2;
-} */
+  padding: 5px, 5px;
+  margin-left: 200px;
+  list-style-type: none;
+  color: #172b4d;
+}
 
 .image {
   font-style: normal;
@@ -70,9 +76,13 @@ main {
   margin: 0 0;
 }
 
+#menu {
+  display: flex;
+}
+
 a {
   text-decoration: none;
-  color: #6070ff;
+  color: #344563;
 }
 
 .nav-wrapp > .right-nav {
@@ -277,8 +287,6 @@ a {
   top: 180px;
   color: #6070ff;
   justify-content: space-between;
-
-  /* Inside auto layout */
   list-style-type: none;
   flex: none;
   flex-grow: 0;
@@ -297,8 +305,6 @@ a {
   left: 12px;
   top: 4px;
   color: #6070ff;
-
-  /* Primary/B50 */
   list-style-type: none;
   background: #ebebff;
   border-radius: 8px;
@@ -312,9 +318,6 @@ a {
 
 .see-button {
   position: static;
-
-  /* width: 195px;
-  height: 72px; */
   left: 0;
   color: #396df2;
   background-color: #fff;
@@ -458,9 +461,6 @@ a {
   left: 24px;
   top: 547px;
   list-style-type: none;
-
-  /* Inside auto layout */
-
   margin: 24px 0;
 }
 
@@ -471,9 +471,6 @@ a {
   left: 0;
   top: 4200px;
   background: #6070ff;
-
-  /*
-  transform: matrix(1, 0, 0, -1, 0, 0);  */
   background-image: url(images.jpeng/contactformshapes-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -486,22 +483,14 @@ a {
   height: 190px;
   left: -200px;
   top: 4734px;
-
-  /* Header / 2 */
-
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
-  /* or 130% */
-
   display: flex;
   align-items: center;
   text-align: center;
-
-  /* Neutrals/N0 */
   margin-left: 60px;
   padding-top: 125px;
   color: #fff;
@@ -518,13 +507,7 @@ a {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-
-  /* or 140% */
-
   text-align: center;
-
-  /* Primary/B50 */
-
   color: #ebebff;
 }
 
@@ -620,18 +603,11 @@ textarea[id=subject] {
   padding-left: 10px;
 }
 
-/* destop reponsiveness */
 @media only screen and (min-width: 768px) {
   .contact-container {
     flex-direction: row;
     width: 1000px;
   }
-
-  /* .info{
-    flex-direction: row;
-    width: 1000px;
-    display: flex;
-  } */
 
   .card {
     flex-direction: row;
@@ -644,7 +620,7 @@ textarea[id=subject] {
     flex-direction: column;
     width: 900px;
     display: flex;
-    margin: 10px;
+    margin: 90px;
   }
 
   .content {
@@ -656,5 +632,9 @@ textarea[id=subject] {
   #card2 {
     flex-direction: row-reverse;
     align-content: center;
+  }
+
+  #menu {
+    display: none;
   }
 }
