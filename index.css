@@ -619,7 +619,7 @@ textarea[id=subject] {
   }
   .about-wrapper{
     flex-direction: row;
-    margin-left: -750px;
+    margin-left: -250px;
   }
   .about-wrapper > h2{
     display: flex;
