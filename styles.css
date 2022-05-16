@@ -691,6 +691,8 @@ textarea[id=subject] {
   }
   #close {
     display: block;
+    color: #fff;
+  text-align: right;
     /* margin: 10px;
     color: #fff;
     text-align: center; */
@@ -732,6 +734,7 @@ textarea[id=subject] {
   }
   .right-nav ul li a {
     color: #fff;
+    font-size: 32px;
   }
   
 }
