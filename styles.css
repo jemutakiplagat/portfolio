@@ -719,7 +719,7 @@ textarea[id=subject] {
     display: block;
     position: absolute;
     height: 100vh;
-    width: 110vh;
+    width: 375px;
     top: 0;
     right: -300px;
     text-align: left;
