@@ -677,7 +677,8 @@ textarea[id=subject] {
     display: none;
   }
   #close {
-    display: none;}
+    display: none;
+  }
   
 }
 
