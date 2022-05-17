@@ -693,9 +693,7 @@ textarea[id=subject] {
     display: block;
     color: #fff;
   text-align: right;
-    /* margin: 10px;
-    color: #fff;
-    text-align: center; */
+   
   }
   #menu{
     display: block;
@@ -723,13 +721,14 @@ textarea[id=subject] {
     height: 100vh;
     width: 375px;
     top: 0;
-    right: -300px;
+    right: -500px;
     text-align: left;
     z-index: 2;
     background: #6070FF;
     transition: 1s;
     cursor: pointer;
     mix-blend-mode: multiply;
+    backdrop-filter: blur(6px);
     
   }
   .right-nav ul li a {
