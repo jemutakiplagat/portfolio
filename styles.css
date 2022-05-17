@@ -655,7 +655,6 @@ textarea[id=subject] {
     transition: 1s;
     cursor: pointer;
     mix-blend-mode: multiply;
- 
   }
 
   .right-nav ul li a {
