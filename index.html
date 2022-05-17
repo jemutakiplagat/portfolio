@@ -6,81 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+      
+ 
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" class="rel">
     <title>Mobile Version Vkeleton</title>
 </head>
 <body>
-
     <main>
-       
-            <header>
+            <div class="navbar">
             <nav>
-                <div class="image">
-                <img src="images.jpeng/Light.png" alt="">
-                </div>
-                <div class="nav-wrapp">
+                    <a href="#"><h3>My Logo</h3></a>
+             
+                <div class="right-nav" id="rightNav">
+                    <ul class="nav-links">
+
+                        <li id="close" class="material-icons" onclick="hideMenu()">close</li>
+
+                        <li><a class="navlink" onclick="hideMenu()" href="#portfolio">Portfolio</a></li>
+
+                        <li><a class="navlink" onclick="hideMenu()" href="#About">About</a></li>
+
+                        <li><a class="navlink" onclick="hideMenu()" href="#Contact">Contact</a></li>
                    
-                <div class="logo">
-                    
-                        <p>My Logo</p>
-                    
-                  </div>
-                <div class="right-nav">
-                    <ul>
-                        <li><a href="#works">Portfolio</a></li>
-                        <li><a href="#works">About</a></li>
-                        <li><a href="#works">Contact</a></li>
-                    <li id="menu" class="material-icons">menu</li>
                 </ul>
-            
-              </div>
-                </div>
+        </div>
+        <i id="menu" class="material-icons" onclick="showMenu()">menu</i>
             </nav>
             
-        </header>
-        
-        
-               <section>
-            <div class="content-wrapper">
-                    <div class="header">
-                        <h1>I'am jemutai 
+       
+    <div class="content-wrapper">
+                    <h1>I'am jemutai 
                             Glad to see you !</h1>
-                    </div>
-                    <div class="about">
                         <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-                    </div>
-                    <div class="connect">
+    
+                   
                         <h3>LET'S CONNECT</h3>
-                    </div>
-                    <div class="social-icons">
-                        <ul>
+                 
+                        <ul class="social-icons">
                             <li>
-                                <a href="#"><img src="images.jpeng/Vector.png" alt=""></a>
+                                <a href="#"><img src="images.jpeng/Vector.png" alt="social media icons"></a>
                             </li>
                             <li>
-                                <a href="#"><img src="images.jpeng/Linkedinicon.png" alt=""></a>
+                                <a href="#"><img src="images.jpeng/Linkedinicon.png" alt="social media icons"></a>
                             </li>
                             <li>
-                                <a href="#"><img src="images.jpeng/Vector1.png" alt=""></a>
+                                <a href="#"><img src="images.jpeng/Vector1.png" alt="social media icons"></a>
                             </li>
                             <li>
-                                <a href="#"><img src="images.jpeng/Vector2.png" alt=""></a>
+                                <a href="#"><img src="images.jpeng/Vector2.png" alt="social media icons"></a>
                             </li>
                             <li>
-                                <a href="#"><img src="images.jpeng/Vector3.png" alt=""></a>
+                                <a href="#"><img src="images.jpeng/Vector3.png" alt="social media icons"></a>
                             </li>
                         </ul>
+                   
+            
+                   
                     </div>
-                    </div>
-               </section>
+                    
+                </div>
+              
+               
         
     
                     <!-- start work section -->
                    
-                    <section class="work-section">
+                    <section class="work-section" id="portfolio">
                         <div class="card" id="card1">
                             <div class="block">
-                            <img src="images.jpeng/SnapshootPortfolio1.png" alt="">
+                            <img src="images.jpeng/SnapshootPortfolio1.png" alt="portfolio snapshot">
                         </div>
                         
                         <div class="project" id="project1">
@@ -111,7 +110,7 @@
 <!-- 2nd -->
                         <div class="card" id="card2">
                             <div class="block">
-                            <img src="images.jpeng/SnapshootPortfolio2.png" alt="">
+                            <img src="images.jpeng/SnapshootPortfolio2.png" alt="portfolio snapshot">
                         </div>
                         
                         <div class="project" id="project2">
@@ -143,7 +142,7 @@
                         <!-- 3rd -->
                         <div class="card" id="card3">
                             <div class="block">
-                            <img src="images.jpeng/SnapshootPortfolio3.png" alt="">
+                            <img src="images.jpeng/SnapshootPortfolio3.png" alt="portfolio snapshot">
                         </div>
                         
                         <div class="project" id="project3">
@@ -175,7 +174,7 @@
                         <!-- 4thnv bn -->
                         <div class="card" id="card4">
                             <div class="block">
-                            <img src="images.jpeng/SnapshootPortfolio4.png" alt="">
+                            <img src="images.jpeng/SnapshootPortfolio4.png" alt="portfolio snapshot">
                         </div>
                         
                         <div class="project" id="project4">
@@ -208,8 +207,8 @@
 
 
                     <!-- about -->
-                    <section class="about-wrapper">
-                      <div class="info">
+                    <section class="about-wrapper" id="About">
+                      
                             <h2 class="myself" id="myself"> About<br>
                                 Myself</h2>
                         
@@ -221,54 +220,53 @@
                         <ul class="social-icons">
                             
                                 <li>
-                                    <a href="#"><img src="images.jpeng/Vector2.png" alt=""></a>
+                                    <a href="#"><img src="images.jpeng/Vector2.png" alt="social media icons"></a>
                                 </li>
                                 <li>
-                                    <a href="#"><img src="images.jpeng/Linkedinicon.png" alt=""></a>
+                                    <a href="#"><img src="images.jpeng/Linkedinicon.png" alt="social media icons"></a>
                                 </li>
                                 <li>
-                                    <a href="#"><img src="images.jpeng/Vector3.png" alt=""></a>
+                                    <a href="#"><img src="images.jpeng/Vector3.png" alt="social media icons"></a>
                                 </li>
                                 <li>
-                                    <a href="#"><img src="images.jpeng/Vector.png" alt=""></a>
+                                    <a href="#"><img src="images.jpeng/Vector.png" alt="social media icons"></a>
                                 </li>
                                 <li>
-                                    <a href="#"><img src="images.jpeng/Vector1.png" alt=""></a>
+                                    <a href="#"><img src="images.jpeng/Vector1.png" alt="social media icons"></a>
                                 </li>
                             </ul>
                     
                         <button type="button" class="see-button">Get my resume</button>
                    
-                      <div class="skills">
                 <ul class="language-icons">
                 
-                        <li> <a href="#"><img src="images.jpeng/languagef.png" alt=""></a>
+                        <li> <a href="#"><img src="images.jpeng/languagef.png" alt="language-icons"></a>
                          </li>
                         
                         <li>
-                            <a href="#"><img src="images.jpeng/Framejs.png" alt=""></a>
+                            <a href="#"><img src="images.jpeng/Framejs.png" alt="language-icons"></a>
                         </li>
                         <li>
-                            <a href="#"><img src="images.jpeng/Framehtml.png" alt=""></a>
+                            <a href="#"><img src="images.jpeng/Framehtml.png" alt="language-icons"></a>
                         </li>
                         <li>
-                            <a href="#"><img src="images.jpeng/Framecss.png" alt=""></a>
+                            <a href="#"><img src="images.jpeng/Framecss.png" alt="language-icons"></a>
                         </li>
                         <li>
-                            <a href="#"><img src="images.jpeng/Framef1.png" alt=""></a>
+                            <a href="#"><img src="images.jpeng/Framef1.png" alt="language-icons"></a>
                         </li>
                         <li>
-                            <a href="#"><img src="images.jpeng/Frameskils.png" alt=""></a>
+                            <a href="#"><img src="images.jpeng/Frameskils.png" alt="language-icons"></a>
                         </li>
                         
                     </ul>
-                </div>
-                      </div>
+              
+                    
                     
                     </section>
                 <!-- start of contact form -->
                 <footer>
-                    <section class="contact-container">
+                    <section class="contact-container" id="Contact">
                         <div class="contact">
                             <h2 class="heading">Contact me</h2>
                         
@@ -285,7 +283,7 @@
                                 maxlength="30" placeholder="jemutai"><br><br>
                           
                                 <input type="Email" id="email" name="email" required
-                                 placeholder="kiplagatjemutai@gmail.com"><br><br>
+                                 placeholder="kiplagatjemutai27@gmail.com"><br><br>
                             
                                 <textarea id="subject" name="subject" required maxlength="500" placeholder="Write your message here.." ></textarea>
                            
@@ -302,6 +300,6 @@
            
            
             </main>
-      
+      <script src="script.js"></script>
 </body>
 </html>
