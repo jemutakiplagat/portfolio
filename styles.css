@@ -22,6 +22,7 @@ main {
   height: 40px;
   left: 0;
   top: 0;
+  
 }
 
 nav {
@@ -655,6 +656,7 @@ textarea[id=subject] {
     transition: 1s;
     cursor: pointer;
     mix-blend-mode: multiply;
+    backdrop-filter: blur(6px);
   }
 
   .right-nav ul li a {
